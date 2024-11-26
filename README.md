@@ -10,7 +10,7 @@ pip install chess
 
 pip install requests
 
-# Usage:
+# Config:
 Seup your config at the top
 
 MOVES_URL = "http://example.com/moves.txt" # Data feed location
@@ -19,6 +19,8 @@ STOCKFISH_PATH = "/path/to/stockfish"  # Local Stockfish path
 
 CHECK_INTERVAL = 60  # Check every 60 seconds
 
+#Usage
+
 To run in the forground:
 
 python stockfish-live-feed.py
@@ -26,4 +28,4 @@ python stockfish-live-feed.py
 
 To run as a background process:
 
-nohup python script_name.py &
+nohup python stockfish-live-feed.py &
