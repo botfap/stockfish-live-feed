@@ -19,7 +19,7 @@ STOCKFISH_PATH = "/path/to/stockfish"  # Local Stockfish path
 
 CHECK_INTERVAL = 60  # Check every 60 seconds
 
-#Usage
+# Usage
 
 To run in the forground:
 
