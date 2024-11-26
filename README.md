@@ -14,7 +14,9 @@ pip install requests
 Seup your config at the top
 
 MOVES_URL = "http://example.com/moves.txt" # Data feed location
+
 STOCKFISH_PATH = "/path/to/stockfish"  # Local Stockfish path
+
 CHECK_INTERVAL = 60  # Check every 60 seconds
 
 To run in the forground:
